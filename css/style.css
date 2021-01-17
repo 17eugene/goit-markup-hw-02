@@ -1,0 +1,213 @@
+/*======Переменные======*/
+:root {
+    --accent-color: #2196F3;
+    --description-color: #757575;
+    --title-and-nav-font-color: #212121;
+    --bg-color-secondary: #F5F4FA;
+    --common-font-size: 16px;
+}
+
+/*======Наследуемые стили======*/
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+    background-color: #FFFFFF;
+}
+
+/*======Шапка сайта======*/
+.logo {
+    font-family: 'Raleway';
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.logo-studio {
+    color: #000000;
+}
+
+.navigation-list-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143px;
+    letter-spacing: 0.02em;
+    color: var(--title-and-nav-font-color);
+    text-decoration: none;
+}
+
+.current-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus {
+    color: var(--accent-color);
+}
+
+.contacts-list-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143px;
+    letter-spacing: 0.02em;
+    color: var(--description-color);
+    text-decoration: none;
+}
+
+.contacts-list-link:hover,
+.contacts-list-link:focus {
+    color: var(--accent-color);
+}
+
+/*======Герой======*/
+.hero {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.363;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color:#2F303A;
+}
+
+.order-btn {
+    font-weight: 700;
+    font-size: var(--common-font-size);
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+
+/*======Особенности работы======*/
+
+.features-list-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-and-nav-font-color);
+}
+
+.features-list-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+}
+
+/*======Чем занимаемся======*/
+.activity-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    letter-spacing: 0.03em;
+    color: var(--title-and-nav-font-color);
+}
+
+/*======Команда======*/
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    letter-spacing: 0.03em;
+    color: var(--title-and-nav-font-color);
+    }
+
+
+.team-member-title {
+    font-weight: 500;
+    font-size: var(--common-font-size);
+    line-height: 1.188;
+    letter-spacing: 0.03em;
+    color: var(--title-and-nav-font-color);
+    }
+
+.team-member-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.188;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+}
+/*======Подвал======*/
+.footer {
+    background-color: #2F303A;
+}
+
+.logo-studio-footer {
+    color: #FFFFFF;
+}
+
+.address {
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.contacts-footer-item {
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+} 
+
+/*======Стили списков на странице======*/
+
+ul[class*="list"] {
+    list-style: none;
+}
+
+/* =========================PORTFOLIO=========================== */
+
+/*======Фильтр======*/
+
+.filter-btn {
+    font-weight: 500;
+    font-size: var(--common-font-size);
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-and-nav-font-color);
+    background-color: var(--bg-color-secondary);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
+
+/*======Портфолио======*/
+.portfolio-list-link {
+    text-decoration: none;
+}
+
+.portfolio-list-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-and-nav-font-color);
+}
+
+.portfolio-list-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+}
