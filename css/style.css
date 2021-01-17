@@ -67,13 +67,16 @@ body {
 
 /*======Герой======*/
 .hero {
+    background-color:#2F303A;
+}
+
+.main-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.363;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-    background-color:#2F303A;
 }
 
 .order-btn {
