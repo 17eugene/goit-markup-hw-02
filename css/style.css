@@ -86,6 +86,7 @@ body {
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background-color: var(--accent-color);
+    cursor: pointer;
 }
 
 /*======Особенности работы======*/
@@ -186,6 +187,7 @@ ul[class*="list"] {
     letter-spacing: 0.03em;
     color: var(--title-and-nav-font-color);
     background-color: var(--bg-color-secondary);
+    cursor: pointer;
 }
 
 .filter-btn:hover,
